@@ -1,0 +1,32 @@
+{
+  "id": "./Gestion_ecole_en_ligne.html",
+  "name": "Registre de l'École",
+  "short_name": "Registre École",
+  "start_url": "./Gestion_ecole_en_ligne.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#1B2A4A",
+  "theme_color": "#1B2A4A",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "icon-ecole-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-ecole-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-ecole-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
