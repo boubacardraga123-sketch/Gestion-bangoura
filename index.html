@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#1B2A4A">
+<title>Gestion scolaire — Accueil</title>
+<style>
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px;
+    font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#eef1f6;color:#1B2A4A}
+  .wrap{width:100%;max-width:420px;text-align:center}
+  h1{font-size:22px;margin:0 0 4px}
+  p.sub{margin:0 0 24px;color:#5b6784;font-size:14px}
+  a.card{display:flex;align-items:center;gap:14px;text-align:left;text-decoration:none;color:#fff;
+    padding:16px;border-radius:14px;margin-bottom:14px;box-shadow:0 2px 8px #0002}
+  a.card img{width:56px;height:56px;border-radius:12px;flex:none}
+  a.card b{display:block;font-size:17px}
+  a.card span{font-size:13px;opacity:.85}
+  .fin{background:#1a3a5c}
+  .eco{background:#1B2A4A}
+  small{display:block;margin-top:18px;color:#7a859e;font-size:12px}
+  @media (prefers-color-scheme:dark){body{background:#0f1626;color:#e6eaf3}p.sub,small{color:#9aa6bf}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Gestion scolaire</h1>
+  <p class="sub">Choisissez votre espace</p>
+  <a class="card fin" href="Gestion_financiere_ligne.html">
+    <img src="icon-finance-192.png" alt="">
+    <div><b>Gestion financière</b><span>Comptabilité, inscriptions, paiements</span></div>
+  </a>
+  <a class="card eco" href="Gestion_ecole_en_ligne.html">
+    <img src="icon-ecole-192.png" alt="">
+    <div><b>Registre de l'École</b><span>Registre du directeur, élèves, personnel</span></div>
+  </a>
+  <small>Pour installer une application, ouvrez-la puis utilisez « Installer » ou « Sur l'écran d'accueil ».</small>
+</div>
+</body>
+</html>
